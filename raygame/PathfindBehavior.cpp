@@ -1,6 +1,8 @@
 #include "PathfindBehavior.h"
 #include "Maze.h"
 
+
+
 void PathfindBehavior::update(Agent* owner, float deltaTime)
 {
 	//Don't update if disabled or no target

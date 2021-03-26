@@ -9,6 +9,8 @@ class PathfindBehavior : public Behavior
 public:
 	PathfindBehavior(Maze* maze) :m_maze(maze) {}
 
+
+
 	/// <summary>
 	/// Update the Behavior, affecting its owning Agent where necessary.
 	/// </summary>
