@@ -1,13 +1,33 @@
 # AI Documentation
 
- Name: BFS(int startX, int startY, int goalX, int goalY)
-         Description: determines the AI's path
-         Type:static void PursuePathBehavior
+ Name: NodeGraph::findPath(Node* start, Node* end)
+         Description: creates a path for the ai to follow
+         Type:std::deque<NodeGraph::Node*> 
          
- Name: Node
-         Description: adds Nodes to the program
-         Type:static Class Node
+ Name: NodeGraph::checkList(std::deque<Node*> list, Node* lookingFor)
+         Description: checks the list of nodes and edges
+         Type:bool
          
- Name: Edge
-         Description: adds Edges for nodes to connect them together
-         Type:static Class Edge
+ Name: NodeGraph::updateHS(Node* currentNode, Node* end)
+         Description: updates the h Score
+         Type:float
+
+ Name: currentGScore
+         Description: is the calculation for the current g Score node
+         Type:float
+         
+ Name: currentHScore
+         Description: is the calculation for the current h Score node
+         Type:float
+         
+ Name: currentFScore
+         Description: is the calculation for the current f Score node
+         Type:float
+         
+ Name: currentNode
+         Description: used as the iterator for the path
+         Type:Node*
+         
+ Name: currentEdgeEnd
+         Description: used as a node pointer to store the other end of the edge
+         Type:Node*
