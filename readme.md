@@ -15,6 +15,8 @@ A- move left
 S- move down
 D- move Right
 
+esc- exit app
+
 ## License
 
 MIT License - Copyright (c) 2018-2020 Academy of Interactive Entertainment
